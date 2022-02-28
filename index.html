@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.gif" />
+    <title>L'Arche Du Grog</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo-container">
+                <a href="#" id="play">
+                    <audio id="audio" src="audio/cork-se.mp3"></audio>
+                    <img class="navbar-logo" src="img/logo.gif" alt="Logo de L'Arche Du Grog">
+                </a>
+            </div>
+            <div class="navbar-btn-container">
+                <a href="#about">
+                    <button class="custom-btn btn-13 navbar-btn">À propos</button>
+                </a>
+                <a href="#members">
+                    <button class="custom-btn btn-13 navbar-btn">Membres</button>
+                </a>
+                <!-- <a href="#partners">
+                    <button class="custom-btn btn-13 navbar-btn">Partenaires</button>
+                </a>
+                <a href="#gallery">
+                    <button class="custom-btn btn-13 navbar-btn">Galerie</button>
+                </a> -->
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="about-container">
+            <section id="about" class="section-container">
+                <div class="title-container">
+                    <h1 class="h1-black">À propos</h1>
+                </div>
+                <div class="content-container">
+                    <p class="text-black">
+                        L'Arche du Grog est une communauté dont les membres sont soudés par les liens sacrés des océans
+                        !
+                        Elle est composée de membres actifs passionnés par toutes les facettes du jeu Sea of Thieves que
+                        ce
+                        soit son histoire, ses personnages ou encore son aspect compétitif ! C'est également l'une des
+                        équipes
+                        les plus redoutables en France ! Mais n'ayez crainte ceci dit, nous acceptons tous types de
+                        joueurs !
+                        Pour devenir Grog c'est très simple ! Rejoignez le discord et faites connaissance avec l'équipe
+                        de L'Arche ! Plus de détails vous seront fournis une fois sur le salon !</p>
+                </div>
+            </section>
+        </div>
+        <section id="members" class="section-container">
+            <div class="title-container">
+                <h1 class="h1-white">Membres</h1>
+            </div>
+            <div class="content-container">
+                <div class="members-list">
+                    <div class="member">
+                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <div class="member-infos">
+                            <div class="title-container">
+                                <div class="h2-white">Gluto</div>
+                            </div>
+                            <div class="text-container text-white">Fondateur de l'Arche du Grog, il aime le grog mais
+                                surtout
+                                l'or ! Pour lui, tout est bon à prendre et il n'hésite pas à risquer son navire pour
+                                couler
+                                son adversaire.</div>
+                        </div>
+                    </div>
+                    <div class="reverse-member">
+                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <div class="member-infos">
+                            <div class="title-container-reverse">
+                                <div class="h2-white">Chokax</div>
+                            </div>
+                            <div class="text-container-reverse text-white">Cet homme vous en fera bavez en PVP et
+                                attention à vous si vous avez le malheur de le croiser en chemin avec un baril de poudre
+                                ! C'est un expert des explosions en tous genres. Il ne cherche rien d'autre que passer
+                                le temps et il peut être très patient pour faire chier son monde.</div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <div class="member-infos">
+                            <div class="title-container-reverse">
+                                <div class="h2-white">Tuxzip</div>
+                            </div>
+                            <div class="text-container-reverse text-white">Membre de l'Arche du Grog depuis ses débuts, il a commencé par suivre ce galion en restant indépendant. Mais le temps des galions coulés et le grog sacré de l'arche ont eu besoin de lui. Seule l'odeur du sang l'importe. C'est le stratège du navire.</div>
+                        </div>
+                    </div>
+                    <div class="reverse-member">
+                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <div class="member-infos">
+                            <div class="title-container-reverse">
+                                <div class="h2-white">Foxardeux</div>
+                            </div>
+                            <div class="text-container-reverse text-white">Fondateur de l'Arche du Grog, il aime le grog
+                                mais
+                                surtout
+                                l'or ! Pour lui, tout est bon à prendre et il n'hésite pas à risquer son navire pour
+                                couler
+                                son adversaire.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="social-media">
+            <a href="https://twitter.com/archedugrog">
+                <img class="social-media-logo" src="img/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/channel/UCiQr60x6PLMhNx7ouijg6sQ">
+                <img class="social-media-logo" src="img/youtube.png" alt="YouTube">
+            </a>
+        </div>
+        <div class="copyright">2022 © L'Arche du Grog. Tous droits réservés.</div>
+    </footer>
+    <script>
+        document.getElementById('play').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.getElementById('audio').play();
+        });
+    </script>
+</body>
+
+</html>
