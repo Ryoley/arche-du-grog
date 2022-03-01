@@ -13,31 +13,36 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="navbar-logo-container">
-                <a href="#" id="play">
-                    <audio id="audio" src="audio/cork-se.mp3"></audio>
-                    <img class="navbar-logo animated tada" src="images/logo.gif" alt="Logo de L'Arche Du Grog">
-                </a>
+            <div class="navbar-left-container">
+                <div class="navbar-container">
+                    <a href="#" id="play">
+                        <audio id="audio" src="audio/cork-se.mp3"></audio>
+                        <img class="navbar-logo animated tada" src="images/logo.gif" alt="Logo de L'Arche du Grog">
+                    </a>
+                </div>
+                <div class="navbar-container">
+                    <div class="nav-title text-gold">L'Arche du Grog</div>
+                </div>
             </div>
-            <div class="navbar-btn-container">
+            <div class="navbar-right-container">
                 <a href="#about">
-                    <button class="custom-btn btn-13 navbar-btn">Qui sommes-nous ?</button>
+                    <button class="custom-btn btn navbar-btn">Qui sommes-nous ?</button>
                 </a>
                 <a href="#members">
-                    <button class="custom-btn btn-13 navbar-btn">Membres</button>
+                    <button class="custom-btn btn navbar-btn">Membres</button>
                 </a>
                 <a href="#partners">
-                    <button class="custom-btn btn-13 navbar-btn">Partenaires</button>
+                    <button class="custom-btn btn navbar-btn">Partenaires</button>
                 </a>
                 <!-- <a href="#gallery">
-                    <button class="custom-btn btn-13 navbar-btn">Galerie</button>
+                    <button class="custom-btn btn navbar-btn">Galerie</button>
                 </a> -->
             </div>
         </nav>
     </header>
     <div class="body">
-        <div class="about-container">
-            <section id="about" class="section-container bg-white">
+        <div class="about-container bg-white">
+            <section id="about" class="section-container">
                 <div class="title-container">
                     <h1 class="h1-black">Qui sommes-nous ?</h1>
                 </div>
@@ -56,16 +61,16 @@
                 </div>
             </section>
         </div>
-        <section id="members" class="section-container bg-black">
-            <div class="title-container">
-                <h1 class="h1-white">Membres</h1>
-            </div>
-            <div class="content-container">
+        <div class="members-container bg-black">
+            <section id="members" class="section-container">
+                <div class="title-container">
+                    <h1 class="h1-white">Membres</h1>
+                </div>
                 <div class="members-list">
                     <div class="member">
                         <img class="member-img" src="images/pirate.png" alt="Gluto">
                         <div class="member-infos">
-                            <h2 class="shine">Gluto</h2>
+                            <h2 class="text-gold">Gluto</h2>
                             <p class="text-container text-white">Fondateur de l'Arche du Grog, il aime le grog mais
                                 surtout
                                 l'or ! Pour lui, tout est bon à prendre et il n'hésite pas à risquer son navire pour
@@ -74,43 +79,48 @@
                         </div>
                     </div>
                     <div class="reverse-member">
-                        <img class="member-img" src="images/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Chokax">
                         <div class="member-infos">
-                            <h2 class="shine">Chokax</h2>
+                            <h2 class="text-gold">Chokax</h2>
                             <p class="text-container-reverse text-white">Cet homme vous en fera bavez en PVP et
-                                attention à vous si vous avez le malheur de le croiser en chemin avec un baril de poudre
-                                ! C'est un expert des explosions en tous genres. Il ne cherche rien d'autre que passer
+                                attention à vous si vous avez le malheur de le croiser en chemin avec un baril de
+                                poudre
+                                ! C'est un expert des explosions en tous genres. Il ne cherche rien d'autre que
+                                passer
                                 le temps et il peut être très patient pour faire chier son monde.
                         </div>
                         </p>
                     </div>
                     <div class="member">
-                        <img class="member-img" src="images/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Tuxzip">
                         <div class="member-infos">
-                            <h2 class="shine">Tuxzip</h2>
-                            <p class="text-container-reverse text-white">Membre de l'Arche du Grog depuis ses débuts,
+                            <h2 class="text-gold">Tuxzip</h2>
+                            <p class="text-container-reverse text-white">Membre de l'Arche du Grog depuis ses
+                                débuts,
                                 il a commencé par suivre ce galion en restant indépendant. Mais le temps des galions
                                 coulés et le grog sacré de l'arche ont eu besoin de lui. Seule l'odeur du sang
                                 l'importe. C'est le stratège du navire.</p>
                         </div>
                     </div>
                     <div class="reverse-member">
-                        <img class="member-img" src="images/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Foxardeux">
                         <div class="member-infos">
-                            <h2 class="shine">Foxardeux</h2>
-                            <p class="text-container-reverse text-white">Le concepteur du "creu(ser)* bourré", notre géo
-                                trouve tout qui invente sans cesse de nouveaux jeux et un bon timonier qui sait manier
+                            <h2 class="text-gold">Foxardeux</h2>
+                            <p class="text-container-reverse text-white">Le concepteur du "creu(ser)* bourré", notre
+                                géo
+                                trouve tout qui invente sans cesse de nouveaux jeux et un bon timonier qui sait
+                                manier
                                 la barre !</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section id="partners" class="section-container bg-white">
-            <div class="title-container">
-                <h1 class="h1-black">Partenaires</h1>
-            </div>
-            <div class="content-container">
+            </section>
+        </div>
+        <div class="partners-container bg-white">
+            <section id="partners" class="section-container">
+                <div class="title-container">
+                    <h1 class="h1-black">Partenaires</h1>
+                </div>
                 <div class="partners-list">
                     <a href="#" target="_blank">
                         <img class="partner-logo" src="images/sotrdm.png" alt="Sea of Thieves RDM">
@@ -122,15 +132,15 @@
                         <img class="partner-logo" src="images/sottpc.png" alt="The Pirate Council">
                     </a>
                 </div>
-            </div>
-        </section>
-        <!-- <section id="gallery" class="section-container bg-black">
-            <div class="title-container">
-                <h1 class="h1-white">Galerie</h1>
-            </div>
-            <div class="content-container">
-            </div>
-        </section> -->
+            </section>
+        </div>
+        <div class="gallery-container bg-black">
+            <section id="gallery" class="section-container">
+                <div class="title-container">
+                    <h1 class="h1-white">Galerie</h1>
+                </div>
+            </section>
+        </div>
     </div>
     <footer>
         <div class="social-media">
