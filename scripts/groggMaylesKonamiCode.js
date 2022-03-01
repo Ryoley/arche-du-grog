@@ -12,6 +12,6 @@ function groggMaylesKonamiCode(response) {
 }
 
 groggMaylesKonamiCode(function () {
-    const audio = new Audio('../audio/grogg-mayles.mp3.mp3');
+    const audio = new Audio('../audio/grogg-mayles.mp3');
     audio.play();
 })
