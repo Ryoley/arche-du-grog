@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link rel="icon" href="img/logo.gif" />
-    <title>L'Arche Du Grog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link href="styles/home.css" rel="stylesheet">
+    <link rel="icon" href="images/logo.gif" />
+    <title>L'Arche du Grog</title>
 </head>
 
 <body>
@@ -16,7 +19,7 @@
             <div class="navbar-logo-container">
                 <a href="#" id="play">
                     <audio id="audio" src="audio/cork-se.mp3"></audio>
-                    <img class="navbar-logo" src="img/logo.gif" alt="Logo de L'Arche Du Grog">
+                    <img class="navbar-logo animated tada" src="images/logo.gif" alt="Logo de L'Arche Du Grog">
                 </a>
             </div>
             <div class="navbar-btn-container">
@@ -26,10 +29,10 @@
                 <a href="#members">
                     <button class="custom-btn btn-13 navbar-btn">Membres</button>
                 </a>
-                <!-- <a href="#partners">
+                <a href="#partners">
                     <button class="custom-btn btn-13 navbar-btn">Partenaires</button>
                 </a>
-                <a href="#gallery">
+                <!-- <a href="#gallery">
                     <button class="custom-btn btn-13 navbar-btn">Galerie</button>
                 </a> -->
             </div>
@@ -37,7 +40,7 @@
     </header>
     <div class="body">
         <div class="about-container">
-            <section id="about" class="section-container">
+            <section id="about" class="section-container bg-white">
                 <div class="title-container">
                     <h1 class="h1-black">À propos</h1>
                 </div>
@@ -56,71 +59,92 @@
                 </div>
             </section>
         </div>
-        <section id="members" class="section-container">
+        <section id="members" class="section-container bg-black">
             <div class="title-container">
                 <h1 class="h1-white">Membres</h1>
             </div>
             <div class="content-container">
                 <div class="members-list">
                     <div class="member">
-                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Gluto">
                         <div class="member-infos">
-                            <div class="title-container">
-                                <div class="h2-white">Gluto</div>
-                            </div>
-                            <div class="text-container text-white">Fondateur de l'Arche du Grog, il aime le grog mais
+                            <h2 class="shine">Gluto</h2>
+                            <p class="text-container text-white">Fondateur de l'Arche du Grog, il aime le grog mais
                                 surtout
                                 l'or ! Pour lui, tout est bon à prendre et il n'hésite pas à risquer son navire pour
                                 couler
-                                son adversaire.</div>
+                                son adversaire.</p>
                         </div>
                     </div>
                     <div class="reverse-member">
-                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Gluto">
                         <div class="member-infos">
-                            <div class="title-container-reverse">
-                                <div class="h2-white">Chokax</div>
-                            </div>
-                            <div class="text-container-reverse text-white">Cet homme vous en fera bavez en PVP et
+                            <h2 class="shine">Chokax</h2>
+                            <p class="text-container-reverse text-white">Cet homme vous en fera bavez en PVP et
                                 attention à vous si vous avez le malheur de le croiser en chemin avec un baril de poudre
                                 ! C'est un expert des explosions en tous genres. Il ne cherche rien d'autre que passer
-                                le temps et il peut être très patient pour faire chier son monde.</div>
+                                le temps et il peut être très patient pour faire chier son monde.
                         </div>
+                        </p>
                     </div>
                     <div class="member">
-                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Gluto">
                         <div class="member-infos">
-                            <div class="title-container-reverse">
-                                <div class="h2-white">Tuxzip</div>
-                            </div>
-                            <div class="text-container-reverse text-white">Membre de l'Arche du Grog depuis ses débuts, il a commencé par suivre ce galion en restant indépendant. Mais le temps des galions coulés et le grog sacré de l'arche ont eu besoin de lui. Seule l'odeur du sang l'importe. C'est le stratège du navire.</div>
+                            <h2 class="shine">Tuxzip</h2>
+                            <p class="text-container-reverse text-white">Membre de l'Arche du Grog depuis ses débuts,
+                                il a commencé par suivre ce galion en restant indépendant. Mais le temps des galions
+                                coulés et le grog sacré de l'arche ont eu besoin de lui. Seule l'odeur du sang
+                                l'importe. C'est le stratège du navire.</p>
                         </div>
                     </div>
                     <div class="reverse-member">
-                        <img class="member-img" src="img/pirate.png" alt="Gluto">
+                        <img class="member-img" src="images/pirate.png" alt="Gluto">
                         <div class="member-infos">
-                            <div class="title-container-reverse">
-                                <div class="h2-white">Foxardeux</div>
-                            </div>
-                            <div class="text-container-reverse text-white">Fondateur de l'Arche du Grog, il aime le grog
-                                mais
-                                surtout
-                                l'or ! Pour lui, tout est bon à prendre et il n'hésite pas à risquer son navire pour
-                                couler
-                                son adversaire.</div>
+                            <h2 class="shine">Foxardeux</h2>
+                            <p class="text-container-reverse text-white">Le concepteur du "creu(ser)* bourré", notre géo
+                                trouve tout qui invente sans cesse de nouveaux jeux et un bon timonier qui sait manier
+                                la barre !</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="partners" class="section-container bg-white">
+            <div class="title-container">
+                <h1 class="h1-black">Partenaires</h1>
+            </div>
+            <div class="content-container">
+                <!-- <div class="partners-list">
+                    <a href="#" target="_blank">
+                        <img class="partner-logo" src="images/sotrdm.png" alt="Sea of Thieves RDM">
+                    </a>
+                    <a href="https://sotfr.net/" target="_blank">
+                        <img class="partner-logo" src="images/sotfr.png" alt="Sea of Thieves France">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img class="partner-logo" src="images/sottpc.png" alt="The Pirate Council">
+                    </a>
+                </div> -->
+            </div>
+        </section>
+        <section id="gallery" class="section-container bg-black">
+            <div class="title-container">
+                <h1 class="h1-white">Galerie</h1>
+            </div>
+            <div class="content-container">
+            </div>
+        </section>
     </div>
     <footer>
         <div class="social-media">
-            <a href="https://twitter.com/archedugrog">
-                <img class="social-media-logo" src="img/twitter.png" alt="Twitter">
+            <a href="https://discord.com/invite/aW7hVZ2Ddj" target="_blank">
+                <img class="social-media-logo" src="images/discord.svg" alt="Discord">
             </a>
-            <a href="https://www.youtube.com/channel/UCiQr60x6PLMhNx7ouijg6sQ">
-                <img class="social-media-logo" src="img/youtube.png" alt="YouTube">
+            <a href="https://twitter.com/archedugrog" target="_blank">
+                <img class="social-media-logo" src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://www.youtube.com/channel/UCiQr60x6PLMhNx7ouijg6sQ" target="_blank">
+                <img class="social-media-logo" src="images/youtube.svg" alt="YouTube">
             </a>
         </div>
         <div class="copyright">2022 © L'Arche du Grog. Tous droits réservés.</div>
@@ -131,6 +155,7 @@
             document.getElementById('audio').play();
         });
     </script>
+    <script src="scripts/groggMaylesKonamiCode.js"></script>
 </body>
 
 </html>
